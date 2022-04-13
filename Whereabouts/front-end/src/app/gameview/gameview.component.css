@@ -1,0 +1,83 @@
+.flex-container {
+    display: flex;
+}
+
+video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.outer-game-container {
+    max-width: 750px;
+    margin: 30px auto;
+    overflow: auto;
+  }
+
+.game-container {
+    max-width: 750px;
+    margin: 30px auto;
+    overflow: auto;
+    min-height: 300px;
+    border: 1px solid steelblue;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #f2eee1;
+  }
+
+.map-container {
+    max-width: 550px;
+    margin: 30px auto;
+    overflow: auto;
+    min-height: 300px;
+    border: 1px solid steelblue;
+    padding: 65px;
+    border-radius: 5px;
+    background-color: #f2eee1;
+}
+
+.game-title {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.game-button {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+/*
+.flex-child {
+    flex: 1;
+    border: 2px solid white;
+    margin: 75px 30px 0 30px;
+    height: 60vh;
+}  
+
+.fixed-bottom{
+    position: fixed;
+    bottom: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+video{
+    height: 60vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.exit{
+    margin-left: 10px;
+    margin-top: 10px;
+    color: white;
+    background-color: black;
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+
+*/

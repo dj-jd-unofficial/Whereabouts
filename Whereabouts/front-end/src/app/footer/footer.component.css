@@ -1,0 +1,13 @@
+.copyleft {
+    display:inline-block;
+    transform: rotateY(180deg);
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 3px;
+    background-color: #f9f6f1;
+}

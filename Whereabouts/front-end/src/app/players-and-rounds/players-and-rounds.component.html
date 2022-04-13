@@ -1,0 +1,36 @@
+<div class="container">
+    
+    <div class="logo-and-search">
+        <img src="assets/img/whereabouts-logo.png"/>
+        <br>
+    </div>
+
+    <div class="players-interface">
+        <h2>How Many Players?</h2>
+    </div>
+    <div class="players-interface">
+        <mat-slider min="1" max="5" step="1" value="1" [thumbLabel]="true"></mat-slider>
+    </div>
+    <br>
+
+    <div class="players-interface">
+        <h2>How Many Rounds?</h2>
+    </div>
+
+    <div class="players-interface">
+        <mat-slider min="1" max="10" step="1" value="1" [thumbLabel]="true"></mat-slider>
+    </div>
+    <br>
+
+    <div class="players-interface">
+        <h2>How Far (Miles)?</h2>
+    </div>
+
+    <div class="players-interface">
+        <mat-slider min="2" max="1500" step="2" value="2" [thumbLabel]="true"></mat-slider>
+    </div>
+
+    <div class="search-button">
+        <button mat-button color="primary" routerLink="/gameview">Start</button>
+    </div>
+</div>

@@ -1,0 +1,55 @@
+<!-- BASIC ANGULAR MATERIAL FORM FIELD
+<div class = "tp-container">
+    <mat-form-field appearance="fill">
+      <input matInput placeholder="... would you like to learn?">
+      <mat-hint>Enter address here</mat-hint>
+    </mat-form-field>
+</div>
+-->
+
+<!-- Google Autocomplete utilizing 3rd party ngx-google-places-autocomplete library (basic text input)
+<div class="container">
+    <input ngx-google-places-autocomplete (onAddressChange)="handleAddressChange($event)">
+  
+    <p>Address: {{ userAddress }}</p>
+    <p>Latitude: {{ userLatitude }}</p>
+    <p>Longitude: {{ userLongitude }}</p>
+</div>
+-->
+
+<!-- Rendering Google places javascript dynamically (Tabish Rangrej)
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Google AutoComplete Demo</h1>
+    </div>
+  </div>
+  <form class="form-horizontal" #SearchPlacesForm="ngForm">
+    <div class="form-group">
+      <label class="control-label col-sm-6" for="txtSearchPlaces">search places:</label>
+      <div class="col-sm-6">
+        <input type="text" class="form-control" id="txtSearchPlaces" name="txtSearchPlaces" #txtSearchPlaces="ngModel"
+          [(ngModel)]="shippingAddress" placeholder="Enter places">
+      </div>
+    </div>
+  </form>
+</div>
+-->
+
+<!-- Rendering Google places javascript dynamically SIMPLIFIED (Tabish Rangrej)
+<div class = "tp-container">
+  <form class="tp-container" #SearchPlacesForm="ngForm">
+        <input type="text" class="form-control" id="txtSearchPlaces" name="txtSearchPlaces" #txtSearchPlaces="ngModel"
+          [(ngModel)]="shippingAddress" placeholder="Enter places">
+  </form>
+</div>
+
+-->
+
+<div class = "tp-container">
+  <form class="tp-container" #SearchPlacesForm="ngForm">
+        <input type="text" class="form-control" id="txtSearchPlaces" name="txtSearchPlaces" #txtSearchPlaces="ngModel"
+          [(ngModel)]="userInput" placeholder="... would you like to learn?">
+  </form>
+   <!-- <p>{{userInput}}</p> --> 
+</div>
