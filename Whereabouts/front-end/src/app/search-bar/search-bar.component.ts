@@ -29,7 +29,7 @@ export class SearchBarComponent implements OnInit {
   }
 
   private loadAutoComplete() {
-    const url = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDx1DNam-TwgiMqv2J5k12SNfXnVQRwgHA&libraries=places&v=weekly';
+    const url = 'https://maps.googleapis.com/maps/api/js?key=GOOGLE_API_KEY_HERE&libraries=places&v=weekly';
     this.loadScript(url).then(() => this.initAutocomplete());
   }
 

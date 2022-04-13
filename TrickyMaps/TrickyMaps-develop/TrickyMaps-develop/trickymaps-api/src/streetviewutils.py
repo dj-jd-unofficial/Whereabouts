@@ -13,7 +13,7 @@ import ffmpeg
 import time
 
 #this needs to be removed and moved to config.json (do not push this to github)
-GOOGLE_STREETVIEW_API_KEY = 'AIzaSyDx1DNam-TwgiMqv2J5k12SNfXnVQRwgHA'
+GOOGLE_STREETVIEW_API_KEY = 'GOOGLE_API_KEY_HERE'
 
 GOOGLE_MAPS_DIRECTIONS_API = 'https://maps.googleapis.com/maps/api/directions/json?'
 

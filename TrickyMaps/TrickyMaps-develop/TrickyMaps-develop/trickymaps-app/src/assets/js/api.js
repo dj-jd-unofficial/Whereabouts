@@ -1,3 +1,3 @@
 function getKey(){
-    return 'AIzaSyDx1DNam-TwgiMqv2J5k12SNfXnVQRwgHA';
+    return 'GOOGLE_API_KEY_HERE';
 }

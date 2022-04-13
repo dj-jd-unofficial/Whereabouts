@@ -5,7 +5,7 @@ import googlemaps
 from datetime import datetime
 
 #this needs to be removed and moved to config.json (do not push this to github)
-gmaps = googlemaps.Client(key='AIzaSyDx1DNam-TwgiMqv2J5k12SNfXnVQRwgHA')
+gmaps = googlemaps.Client(key='GOOGLE_API_KEY_HERE')
 
 # given: lat1, lon1, bearing, distMiles
 def get_random_point(lat1: float, lon1: float, distance: int):
