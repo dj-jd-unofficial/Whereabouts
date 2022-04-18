@@ -12,9 +12,8 @@ export class PlayerCardComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  playerName: string = "player";
+  playerName: string = "Player";
   playerScore: number = 0;
 
-  
 
 }

@@ -2,6 +2,8 @@
  * Date: Feb 2, 2021
  * "Integrate Google Map Places AutoComplete In Angular" - The Code Hubs
  *  https://www.thecodehubs.com/integrate-google-map-places-autocomplete-in-angular/
+ * 
+ *  This uses the Google Places API and renders it dynamically in this component. 
  */
 
 import { Component, Inject, OnInit, Renderer2 } from '@angular/core';
@@ -29,7 +31,7 @@ export class SearchBarComponent implements OnInit {
   }
 
   private loadAutoComplete() {
-    const url = 'https://maps.googleapis.com/maps/api/js?key=GOOGLE_API_KEY_HERE&libraries=places&v=weekly';
+    const url = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDx1DNam-TwgiMqv2J5k12SNfXnVQRwgHA&libraries=places&v=weekly';
     this.loadScript(url).then(() => this.initAutocomplete());
   }
 
