@@ -22,6 +22,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { PlayersAndRoundsComponent } from './players-and-rounds/players-and-rounds.component';
 import { PlayerCardComponent } from './player-card/player-card.component';
 import { GameviewComponent } from './gameview/gameview.component';
+import { LeaderboardComponent } from './leaderboard/leaderboard.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { GameviewComponent } from './gameview/gameview.component';
     PageNotFoundComponent,
     PlayersAndRoundsComponent,
     PlayerCardComponent,
-    GameviewComponent
+    GameviewComponent,
+    LeaderboardComponent
   ],
   imports: [
     BrowserModule,

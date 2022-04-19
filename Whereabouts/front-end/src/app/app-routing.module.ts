@@ -4,11 +4,13 @@ import { HomeScreenComponent } from './home-screen/home-screen.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { PlayersAndRoundsComponent } from './players-and-rounds/players-and-rounds.component';
 import { GameviewComponent } from './gameview/gameview.component';
+import { LeaderboardComponent } from './leaderboard/leaderboard.component';
 
 const routes: Routes = [
   { path: 'home-screen', component: HomeScreenComponent },
   { path: 'players-and-rounds', component: PlayersAndRoundsComponent },
   { path: 'gameview', component: GameviewComponent },
+  { path: 'leaderboard', component: LeaderboardComponent},
   { path: '', redirectTo: '/home-screen', pathMatch: 'full'},
   { path: '**', component: PageNotFoundComponent }
 ];
