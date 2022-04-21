@@ -15,7 +15,6 @@ import { MatCardModule } from '@angular/material/card';
 import { ReactiveFormsModule } from '@angular/forms';
 import { FormsModule } from '@angular/forms';
 import { SearchBarComponent } from './search-bar/search-bar.component'
-import { GooglePlaceModule } from 'ngx-google-places-autocomplete';
 import { FooterComponent } from './footer/footer.component';
 import { HomeScreenComponent } from './home-screen/home-screen.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
@@ -48,7 +47,6 @@ import { LeaderboardComponent } from './leaderboard/leaderboard.component';
     MatInputModule,
     FormsModule,
     ReactiveFormsModule,
-    GooglePlaceModule,
     MatFormFieldModule,
     MatCardModule
   ],
