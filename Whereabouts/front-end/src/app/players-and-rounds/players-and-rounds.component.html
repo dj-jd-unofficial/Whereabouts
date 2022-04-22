@@ -9,7 +9,7 @@
         <h2>How Many Players?</h2>
     </div>
     <div class="players-interface">
-        <mat-slider min="1" max="5" step="1" value="1" [thumbLabel]="true"></mat-slider>
+        1 &nbsp;<mat-slider min="1" max="5" step="1" value="1" [thumbLabel]="true"></mat-slider>&nbsp; 5
     </div>
     <br>
 
@@ -18,7 +18,7 @@
     </div>
 
     <div class="players-interface">
-        <mat-slider min="1" max="10" step="1" value="1" [thumbLabel]="true"></mat-slider>
+       1 &nbsp; <mat-slider min="1" max="10" step="1" value="1" [thumbLabel]="true"></mat-slider>&nbsp; 10
     </div>
     <br>
 
@@ -27,7 +27,13 @@
     </div>
 
     <div class="players-interface">
-        <mat-slider min="2" max="1500" step="2" value="2" [thumbLabel]="true"></mat-slider>
+        <mat-form-field appearance="fill">
+            <input matInput 
+                placeholder="Max: 3000"
+                type="number"
+                min="1"
+                max="3000">
+        </mat-form-field>
     </div>
 
     <div class="search-button">
