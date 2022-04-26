@@ -22,14 +22,14 @@
               <div class="flex-child green" id="map">
                 google map
               </div>
+              
           </div>
           <div class="fixed-bottom">
-            <div class="scoreboard__score" data-for-player="one" style="color:yellow">Player Score: 0
+            <div class="scoreboard__score" data-for-player="one" style="color:yellow">Player Score: {{playerScore}}
             </div>
-            <button class="btn btn-success" (click)="scorePage()" [disabled]="!guessMade">Submit Guess</button>
+            <button class="btn btn-success" (click)= "scorePage()" [disabled]="!guessMade">Submit Guess</button>
             <button class="btn btn-success" (click)="ngOnInit()" >Token</button>
           </div>
       </div>
-
     </body>
 </html>

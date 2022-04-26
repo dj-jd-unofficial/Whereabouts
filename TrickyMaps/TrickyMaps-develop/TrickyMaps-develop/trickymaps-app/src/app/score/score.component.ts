@@ -16,7 +16,7 @@ export class ScoreComponent implements OnInit {
   theRetrievedData: any;
   theScore: any;
   output:any;
-  outputScore: any;
+  outputScore: number;
   outputFeet: any;
 
   ngOnInit(): void {
@@ -32,7 +32,7 @@ export class ScoreComponent implements OnInit {
     console.log("simp = " + this.theRetrievedData[3]);
     console.log("simp = " + this.theRetrievedData[5]);
     console.log("simp = " + this.theRetrievedData[7]);
-
+    
     var info: any = {
       "destination_lat": Number(this.theRetrievedData[1]),
       "destination_lon": Number(this.theRetrievedData[3]),
@@ -73,7 +73,8 @@ export class ScoreComponent implements OnInit {
           this.outputFeet = this.output[1];
           console.log("output = " + this.output);
         }, 2500);
-        
+    
+     
       
   }
 
