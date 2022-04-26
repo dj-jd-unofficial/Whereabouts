@@ -22,6 +22,7 @@ import { PlayersAndRoundsComponent } from './players-and-rounds/players-and-roun
 import { PlayerCardComponent } from './player-card/player-card.component';
 import { GameviewComponent } from './gameview/gameview.component';
 import { LeaderboardComponent } from './leaderboard/leaderboard.component';
+import { TutorialPageComponent } from './tutorial-page/tutorial-page.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { LeaderboardComponent } from './leaderboard/leaderboard.component';
     PlayersAndRoundsComponent,
     PlayerCardComponent,
     GameviewComponent,
-    LeaderboardComponent
+    LeaderboardComponent,
+    TutorialPageComponent
   ],
   imports: [
     BrowserModule,
