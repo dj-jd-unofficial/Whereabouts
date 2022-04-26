@@ -11,6 +11,10 @@ import os.path
 from os import path
 
 
+#I recommend doing your own research on flask. This is essentially taking all the methods from gcputils and streetviewutils
+#and putting it in the flask server. This flask server was put into one of the TrickyMaps members server, but it can be run on
+#a local host. Make sure to run python server.py or else the google street view video and google maps interface won't show up
+
 
 def make_server() -> Flask:
     app = Flask(__name__)

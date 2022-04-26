@@ -13,7 +13,7 @@ def encode_filename(start_address):
 def reencode_video(filename):
     filepath_source = "..\\static\\{}.mp4".format(filename) # changed / to \
     filepath_output = '..\\static\\final_{}.mov'.format(filename) # changed / to \
-    FFMPEG_PATH = "C:\\Users\\Jack\\Documents\\ffmpeg-4.4.1-essentials_build\\bin\\ffmpeg" # If on Linux based system, use "ffmpeg". If on Windows, download and extract ffmpeg from https://www.gyan.dev/ffmpeg/builds/#release-builds and point to the file path.
+    FFMPEG_PATH = "C:\\Users\\17818\\Desktop\\ffmpeg-4.4.1-essentials_build\\ffmpeg-4.4.1-essentials_build\\bin\\ffmpeg" # If on Linux based system, use "ffmpeg". If on Windows, download and extract ffmpeg from https://www.gyan.dev/ffmpeg/builds/#release-builds and point to the file path.
 
     try:
         subprocess.call([FFMPEG_PATH, '-i', filepath_source, filepath_output])
