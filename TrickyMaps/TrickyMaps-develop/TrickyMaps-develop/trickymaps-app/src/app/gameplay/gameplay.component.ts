@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Loader } from '@googlemaps/js-api-loader';
 import { SendLatLongService } from '../send-lat-long.service';
@@ -28,6 +28,7 @@ export class GameplayComponent implements OnInit {
   destinationLat: any;
   destinationLng: any;
   fileName: any;
+  playerScore: number = 0;
 
 
   guessMade: boolean = false;

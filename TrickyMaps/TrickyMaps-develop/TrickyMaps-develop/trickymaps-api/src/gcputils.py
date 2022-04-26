@@ -5,7 +5,7 @@ import googlemaps
 from datetime import datetime
 
 #this needs to be removed and moved to config.json (do not push this to github)
-gmaps = googlemaps.Client(key='GOOGLE_API_KEY_HERE')
+gmaps = googlemaps.Client(key='ENTER_API_KEY')
 
 # given: lat1, lon1, bearing, distMiles
 def get_random_point(lat1: float, lon1: float, distance: int):
@@ -18,7 +18,7 @@ def get_random_point(lat1: float, lon1: float, distance: int):
         "lon": obj[1]
     }
     return obj_final
-
+#utilizes google geocoding to get the location from the random point we got in the method above
 def get_location_from_point(lat1: float, lon1: float):
     # Look up an address with reverse geocoding
     reverse_geocode_result = gmaps.reverse_geocode((lat1, lon1))
@@ -44,7 +44,9 @@ def get_locations_from_points(lat1: float, lon1: float, lat2: float, lon2:float)
     }
 
     return obj
-
+    
+#This is run until it has a set route, for instance if the route is in the water we can't get a google street view video
+#so this will run until it has a valid route
 def get_route(lat1: float, lon1: float, lat2: float, lon2:float):
     start = (lat1, lon1)
     end = (lat2, lon2)

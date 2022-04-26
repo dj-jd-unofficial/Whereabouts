@@ -79,7 +79,7 @@ def calculate_pitch(centercord,currentcord,height):
 def calculate_score(feet_away):
   rad_perfect_score = 100
   distance = feet_away
-  if (feet_away < 100):
+  if (feet_away < 1000): 
     score = 100
   else:
     score = (1.0 / math.log(distance - rad_perfect_score, 80) * 100)
