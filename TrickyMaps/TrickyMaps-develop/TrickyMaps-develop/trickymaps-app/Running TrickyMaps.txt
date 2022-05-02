@@ -45,4 +45,4 @@ Angular CLI: 11.1.4
 Node: 16.0.0
 
 Feel free to play with this as much as you want. I also filmed a youtube video of me running it and showing you what you need to 
-change: *link*
+change: https://youtu.be/WkdwOfQ5TOU

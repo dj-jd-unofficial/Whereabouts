@@ -49,5 +49,5 @@ if you have a small mile radius it probably can run on your local host.
 Also utilizes the Google API key. You can get this for free on the google cloud platform. There are videos on how to do this, it 
 isn't too difficult. Just make sure you don't upload your key to GitHub because then other people can use it and that can be bad.
 
-Youtube Video talking about this- *link*
+Youtube Video talking about this- https://youtu.be/lj3FEoFhHkU
 
