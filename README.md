@@ -1,2 +1,49 @@
 # Whereabouts
 The Multiplayer Map Game
+## Introduction
+To the next group taking on this project,
+
+I wanted to give you an introduction of what we received from the first year's group and then what we left for you guys. `TrickyMaps` was the first year of this project. This year accomplished a lot of the back-end functionality of the program with a generic front end. The `TrickyMaps` game utilizes the current location of the host. The host enters a mile radius they want to guess away from their current location. There is then a google street view compiled video and a google maps interface. When the user thinks they know where they are they enter their guess on the google maps interface. It then takes the user to the next page where a score is outputted. 
+
+As great as this was there issues when our group tried to implement changes. There are so many third party sources in this project
+that any changes made to it cause issues. This is the issue of tech debt which is very common in the field. Another issue we had
+was zero documentation of the project. So it took us until the last week of January just to get this project working. That is why
+a big thing we wanted to leave you guys was a lot of documentation so you can run with this project from the start. Rather than
+being like us who was heavily delayed because we couldn't understand what this project was doing. We will also be creating some
+youtube videos for you to better explain what we are trying to say along with these documents. 
+
+So the first change Dr.Thomas wanted done was the name. That's why our team name is Whereabouts and we are the second year of
+this project. Dr.Thomas was impressed with what TrickyMaps did, but he felt it didn't capture what he was trying to convey. 
+
+Here is the list of changes we tried to implement:
+- A Google autocomplete so the user can enter the end location they want to go to
+- A scoring system to make it competitive
+- A 'token' feature so the user can replay the google street video. The player gets this whenever they win a round
+- A leaderboard
+- A completely new front end
+
+Here is what we left you:
+- A working google autocomplete
+- A working token function (this is implemented in the TrickyMaps project)
+- A completely new front end
+- A leaderboard 
+
+Keep in mind the new front end and the leaderboard are strictly the look. There is no functionality with it, that is what your group
+needs to do. Essentially your job is to combine TrickyMaps and Whereabouts to make the game Dr.Thomas and Whereabouts wanted. 
+This documentation is created to try to help you so you can start immediately and avoid the struggle we had. Our recommendation is
+to completely rewrite the backend and use TrickyMaps as a reference. Below are gonna be some of the languages and tools used for 
+TrickyMaps and we will explain why these are the choices. 
+
+Back end- Python
+The previous group loved Python so that is why he chose this. You can probably choose any language you want for this, just make
+sure to do some research if you want to make a change. 
+Front end - Angular
+TrickyMaps chose Angular because it is created by Google so it works well with the Google API. Only problem is they didn't use any
+of the Angular functions to work with the Google API, so TrickyMaps was difficult to make any changes with. We stuck with Angular
+with the front end we created. 
+Tools- Flask
+This runs the backend code on a server. There is so much data from the google street view that a server needs to run it. Although
+if you have a small mile radius it probably can run on your local host.  
+
+Also utilizes the Google API key. You can get this for free on the google cloud platform. There are videos on how to do this, it 
+isn't too difficult. Just make sure you don't upload your key to GitHub because then other people can use it and that can be bad.
