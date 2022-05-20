@@ -3,20 +3,16 @@ The Multiplayer Map Game
 ## Introduction
 To the next group taking on this project,
 
-I wanted to give you an introduction of what we received from the first year's group and then what we left for you guys. `TrickyMaps` was the first year of this project. This year accomplished a lot of the back-end functionality of the program with a generic front end. The `TrickyMaps` game utilizes the current location of the host. The host enters a mile radius they want to guess away from their current location. There is then a google street view compiled video and a google maps interface. When the user thinks they know where they are they enter their guess on the google maps interface. It then takes the user to the next page where a score is outputted. 
+I wanted to give you an introduction of what we received from the first year's group and then what we left for you guys. `TrickyMaps` was the first year of this project. This year accomplished a lot of the back-end functionality of the program implemented with a generic looking front-end. The `TrickyMaps` game utilizes the current location of the host. The host then enters a mile radius they want to guess away from their current location. There is then a Google Street View compiled video and a Google Maps interface. When the user thinks they know where they are, they enter their guess on the Google Maps interface. It then takes the user to a final page where a score is displayed. 
 
-As great as this was there issues when our group tried to implement changes. There are so many third party sources in this project
-that any changes made to it cause issues. This is the issue of tech debt which is very common in the field. Another issue we had
-was zero documentation of the project. So it took us until the last week of January just to get this project working. That is why
-a big thing we wanted to leave you guys was a lot of documentation so you can run with this project from the start. Rather than
-being like us who was heavily delayed because we couldn't understand what this project was doing. We will also be creating some
-youtube videos for you to better explain what we are trying to say along with these documents. 
+As great as this was there were issues when our group tried to implement changes. There are third party sources in this project made that caused issues with any changes we wanted to make to it. This is the issue of *tech debt* which is very common in the field. Another issue we had was practically zero documentation of the project. So it took us until the last week of January 2022 just to get `TrickyMaps` working. We did our best to leave you guys with a lot of documentation from the start so that hopefully you can run with this project from the start. (Rather than being like us who were heavily delayed because we couldn't understand what this project was doing.) We will also be creating some YouTube videos for you to better explain what we are trying to say with these documents. 
 
-So the first change Dr.Thomas wanted done was the name. That's why our team name is Whereabouts and we are the second year of
-this project. Dr.Thomas was impressed with what TrickyMaps did, but he felt it didn't capture what he was trying to convey. 
+### Our Changes
+
+The first change Dr.Thomas wanted done was the name. That's why the new project is called `Whereabouts`. We are the second year of this project. Dr.Thomas was impressed with what `TrickyMaps` did, but he felt it didn't capture his original vision. He didn't want the game to start with your current location, and for the user to try to guess a random location the computer was trying to go to. He instead wanted a way for the user to enter in a location they wanted to learn, and then enter in how far away from that location they would like to learn. He also wanted the game to be multiplayer, so that he can play it with his children (We couldn't do this part due to time constraints).
 
 Here is the list of changes we tried to implement:
-- A Google autocomplete so the user can enter the end location they want to go to
+- A Google autocomplete so the user can enter the end location they want to go to (implements Google Places API)
 - A scoring system to make it competitive
 - A 'token' feature so the user can replay the google street video. The player gets this whenever they win a round
 - A leaderboard
@@ -24,7 +20,7 @@ Here is the list of changes we tried to implement:
 
 Here is what we left you:
 - A working google autocomplete
-- A working token function (this is implemented in the TrickyMaps project)
+- A working token function (this is implemented in the `TrickyMaps` project)
 - A completely new front end
 - A leaderboard 
 
