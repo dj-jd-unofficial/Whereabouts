@@ -2,9 +2,14 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
 
+## Getting started
+
+1. Install the Angualar Web Framework.
+2. Install Angular Material package `ng add @angular/material`. Angular Material contains a library of well designed components developed by the Angular team themselves.
+
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+To run this project, execute `ng serve` in the terminal for a dev server. Navigate to `http://localhost:4200/` in your web browser. The app will automatically reload if you change any of the source files. To automatically open a webpage window, type `ng serve -o`.
 
 ## Code scaffolding
 
