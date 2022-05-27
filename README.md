@@ -46,4 +46,5 @@ with the front end we created.
 
 Also utilizes the Google API key. You can get this for free when signing up for Google Cloud Platform. There are videos on how to do this, it 
 isn't too difficult.
+
 **Make sure you don't upload your key to GitHub because other people can use it, and you'll get charged for it.**
