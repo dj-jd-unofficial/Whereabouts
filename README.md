@@ -39,7 +39,7 @@ This runs the backend code on a server. There is so much data from the google st
 if you have a small mile radius it probably can run on your local host.  
 
 #### Front end
-#####Angular
+##### Angular
 `TrickyMaps` chose Angular because it is created by Google, so it works well with the Google API. The only problem is they didn't use any
 of the Angular functions to work with the Google API, so `TrickyMaps` was difficult to make any changes to. We stuck with Angular
 with the front end we created. 
