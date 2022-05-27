@@ -24,22 +24,26 @@ Here is what we left you:
 - A completely new front end
 - A leaderboard 
 
-Keep in mind the new front end and the leaderboard are strictly the look. There is no functionality with it, that is what your group
-needs to do. Essentially your job is to combine TrickyMaps and Whereabouts to make the game Dr.Thomas and Whereabouts wanted. 
+Keep in mind the new front end and the leaderboard are strickly for prototyping purposes. There is no functionality with it, that is what your group
+needs to do. Your job is to combine `TrickyMaps` and `Whereabouts` to make the game Dr.Thomas wanted. 
 This documentation is created to try to help you so you can start immediately and avoid the struggle we had. Our recommendation is
-to completely rewrite the backend and use TrickyMaps as a reference. Below are gonna be some of the languages and tools used for 
-TrickyMaps and we will explain why these are the choices. 
+to completely rewrite the backend and use `TrickyMaps` as a reference. Below are gonna be some of the languages and tools used for 
+`TrickyMaps` and we will explain why these are the choices. 
 
-Back end- Python
-The previous group loved Python so that is why he chose this. You can probably choose any language you want for this, just make
+#### Back end
+##### Python 
+The previous group loved Python. That's the only reason why they chose it. You can probably choose any language you want for this, just make
 sure to do some research if you want to make a change. 
-Front end - Angular
-TrickyMaps chose Angular because it is created by Google so it works well with the Google API. Only problem is they didn't use any
-of the Angular functions to work with the Google API, so TrickyMaps was difficult to make any changes with. We stuck with Angular
-with the front end we created. 
-Tools- Flask
+##### Flask package
 This runs the backend code on a server. There is so much data from the google street view that a server needs to run it. Although
 if you have a small mile radius it probably can run on your local host.  
 
-Also utilizes the Google API key. You can get this for free on the google cloud platform. There are videos on how to do this, it 
-isn't too difficult. Just make sure you don't upload your key to GitHub because then other people can use it and that can be bad.
+#### Front end
+#####Angular
+`TrickyMaps` chose Angular because it is created by Google, so it works well with the Google API. The only problem is they didn't use any
+of the Angular functions to work with the Google API, so `TrickyMaps` was difficult to make any changes to. We stuck with Angular
+with the front end we created. 
+
+Also utilizes the Google API key. You can get this for free when signing up for Google Cloud Platform. There are videos on how to do this, it 
+isn't too difficult.
+**Make sure you don't upload your key to GitHub because other people can use it, and you'll get charged for it.**
