@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Getting started
 
-1. Install the Angualar Web Framework.
+1. Install the Angualar Web Framework. [Angular Set Up Guide](https://angular.io/guide/setup-local)
 2. Install Angular Material package by running `ng add @angular/material` in this directory. Angular Material contains a library of well designed components developed by the Angular team themselves.
 
 ## Development server
