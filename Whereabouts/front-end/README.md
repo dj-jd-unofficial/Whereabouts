@@ -7,6 +7,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 1. Install the Angualar Web Framework. [Angular Set Up Guide](https://angular.io/guide/setup-local)
 2. Install Angular Material package by running `ng add @angular/material` in this directory. Angular Material contains a library of well designed UI components developed by the Angular team themselves.
 
+To learn more about Angular, refer to the [Angular Documentation page](https://angular.io/docs) which includes a helpful setup guide and tutorials.
+
 ## Development server
 
 To run this project, execute `ng serve` in the terminal for a dev server. Navigate to `http://localhost:4200/` in your web browser. The app will automatically reload if you change any of the source files. To automatically open a webpage window, type `ng serve -o`.
