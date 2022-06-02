@@ -1,2 +1,2 @@
 # CSS Formatting
-This project was the first time I gained experience using css, so the naming conventions of selector names and organization of selector blocks may not be the best. Some are in the `styles.css` file in this directory which applies throughout the whole Angular app, and some of the css is local for each component. 
+This project was the first time I gained experience using css, so the naming conventions of selector names and organization of selector blocks may not be the best. Some are in the `styles.css` file in this directory which applies throughout the whole Angular app, and some of the css is local for each component in the [app folder](https://github.com/dj-jd-unofficial/Whereabouts/tree/master/Whereabouts/front-end/src/app). 
