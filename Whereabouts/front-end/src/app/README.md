@@ -18,3 +18,6 @@ The user enters the number of players that will be present in the game, how many
 The page where the main game is played. The Google Street View video should be rendered on the left, and the Google Maps interface depicting each users guess should be on the right. Once each guess is entered, the Guess button takes the user to the leaderboard. 
 
 ## player-card
+An Angular Material card containing player name, profile pic, points, guess button and token button. This was created to be a placeholder for development purposes. In a grander vision of this project, the game would be similar to a kahoot where each player would enter their guess on their own devices. However, when developing the game, it is easier for the player to click on the guess button for their card, and then interact with the Google Maps interface in gameview. Once all of the players have entered in their guess with the Google Maps interface, someone can click on the final black Guess button. This will take the user to the leaderboard. 
+
+##
