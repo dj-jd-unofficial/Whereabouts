@@ -1,4 +1,5 @@
 # Components
+
 ## Header 
 There is no particular reason as to why the header component is within a seperate 'components' directory. The header was the first component that I created, and I thought that I would place every component in this directory. I then realized that for the purposes of this project that I wouldn't be using modules, which made placing all of the components in another directory redunant. If you implenent modules, then it makes sense to use that directory. If you don't, remove it. 
 
@@ -13,4 +14,7 @@ A custom search bar that uses the Google Places API. The user uses the search ba
 ## players-and-rounds
 The user enters the number of players that will be present in the game, how many rounds the game should be, and the distance away from the end location the game should start at. The user is brought to this page after selecting an end location in home-screen. 
 
-##
+## gameview
+The page where the main game is played. The Google Street View video should be rendered on the left, and the Google Maps interface depicting each users guess should be on the right. Once each guess is entered, the Guess button takes the user to the leaderboard. 
+
+## player-card
