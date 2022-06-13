@@ -1,7 +1,7 @@
 # Whereabouts
 #### The Multiplayer Map Game
 ## Introduction
-To the next group taking on this project,
+#### To the next group taking on this project,
 
 I wanted to give you an introduction of what we received from the first year's group and then what we left for you guys. `TrickyMaps` was the first year of this project. This year accomplished a lot of the back-end functionality of the program implemented with a generic looking front-end. The `TrickyMaps` game utilizes the current location of the host. The host then enters a mile radius they want to guess away from their current location. There is then a Google Street View compiled video and a Google Maps interface. When the user thinks they know where they are, they enter their guess on the Google Maps interface. It then takes the user to a final page where a score is displayed. 
 
