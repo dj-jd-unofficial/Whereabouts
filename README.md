@@ -26,8 +26,7 @@ Here is what we left you:
 
 Keep in mind the new front end and the leaderboard are strickly for prototyping purposes. There is no functionality with it, that is what your group
 needs to do. Your job is to combine `TrickyMaps` and `Whereabouts` to make the game Dr.Thomas wanted. 
-This documentation is created to try to help you so you can start immediately and avoid the struggle we had. Our recommendation is
-to completely rewrite the backend and use `TrickyMaps` as a reference. Below are gonna be some of the languages and tools used for 
+This documentation is created to try to help you so you can hopefully start immediately and avoid/reduce the struggle we had. Our recommendation is to completely rewrite the backend and use `TrickyMaps` as a reference. Below are gonna be some of the languages and tools used for 
 `TrickyMaps` and we will explain why these are the choices. 
 
 #### Back end
