@@ -1,6 +1,6 @@
 # FrontEnd
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
+This is the new frontend of Whereabouts. It features a Google Autocomplete search bar and Angular Material UI components to provide a framework for a useable user interface. 
 
 ## Getting started
 
@@ -35,3 +35,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 # Whereabouts Components
 Once setup is completed, view created components in [src/app](https://github.com/dj-jd-unofficial/Whereabouts/tree/master/Whereabouts/front-end/src/app)
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5. 
